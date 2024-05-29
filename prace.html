@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Správce Inzerátů</title>
+    <link rel="stylesheet" href="prace.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Správce Inzerátů</h1>
+        <form id="adForm">
+            <label for="company">Společnost:</label>
+            <input type="text" id="company" required>
+
+            <label for="position">Pozice:</label>
+            <input type="text" id="position" required>
+
+            <label for="dateApplied">Datum pohovoru/zaslání CV:</label>
+            <input type="date" id="dateApplied" required>
+
+            <label for="interviewResult">Výsledek pohovoru:</label>
+            <input type="text" id="interviewResult">
+
+            <button type="submit">Uložit</button>
+        </form>
+
+        <div id="ads">
+            <h2>Seznam inzerátů:</h2>
+            <ul id="adsList"></ul>
+        </div>
+    </div>
+
+    
+    
+    <p>
+        Dobrý den, <br>
+        <br>
+        jmenuji se Ondřej Suška a rád bych se ucházel o toto místo ve vaší společnosti. <br>
+        <br>
+        Budu velmi rád když se potkáme nebo uslyšíme na případném osobním pohovoru :-) <br>
+        <br>
+        Zde přikládám i svůj Github - https://github.com/Ondys96
+    </p>
+
+    <script src="prace.js"></script>
+</body>
+</html>
